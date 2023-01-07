@@ -43,8 +43,10 @@ export GITHUB_TOKEN="..."
 jetbrains tools
 ---------------
 
-1. sudo chown ed:ed /opt
-2. set tools installation to /opt/JetBrains before downloading
+1. type `sudo chown $USER:$USER /opt`
+2. set tools installation to `/opt/JetBrains` before downloading
+3. download https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.27.2.13801.tar.gz to `/opt/JetBrains/Toolbox`
+4. extract and run toolbox
 
 install node using nvm
 ----------------------
