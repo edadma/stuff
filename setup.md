@@ -40,14 +40,6 @@ add github token to `~/.profile`
 export GITHUB_TOKEN="..."
 ```
 
-jetbrains tools
----------------
-
-1. type `sudo chown $USER:$USER /opt`
-2. set tools installation to `/opt/JetBrains` before downloading
-3. download https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.27.2.13801.tar.gz to `/opt/JetBrains/Toolbox`
-4. extract and run toolbox
-
 install node using nvm
 ----------------------
 
@@ -58,4 +50,19 @@ install node using nvm
 5. run `source ~/.bashrc`
 6. run `nvm install lts/gallium`
 7. restart machine
+
+jetbrains tools
+---------------
+
+1. type `sudo chown $USER:$USER /opt`
+2. set tools installation to `/opt/JetBrains` before downloading
+3. download https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.27.2.13801.tar.gz to `/opt/JetBrains/Toolbox`
+4. extract and run toolbox
+5. install Intellij, WebStorm, CLion, Android Studio
+
+prettier (TypeScript formatting)
+--------------------------------
+
+1. npm install --global prettier
+2. in WebStorm, go to Settings/Preferences -> Languages & Frameworks -> JavaScript -> Prettier
 
