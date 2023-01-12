@@ -46,6 +46,11 @@ add github token to `~/.profile`
 export GITHUB_TOKEN="..."
 ```
 
+ssh keys
+--------
+
+create using `ssh-keygen` or look in 1Password
+
 install node using nvm
 ----------------------
 
