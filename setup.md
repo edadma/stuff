@@ -66,3 +66,8 @@ prettier (TypeScript formatting)
 1. npm install --global prettier
 2. in WebStorm, go to Settings/Preferences -> Languages & Frameworks -> JavaScript -> Prettier
 
+viber
+-----
+
+1. download https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
+
