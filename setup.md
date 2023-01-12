@@ -10,6 +10,12 @@ ubuntu packages
 
 dolphin ark konsole tilix git default-jdk htop curl docker docker-compose hardinfo synaptic ansible sshpass net-tools openssh-server ccrypt nginx redis-server clang libgc-dev
 
+docker group
+------------
+
+1. `sudo usermod -aG docker $USER`
+2. restart computer
+
 git config
 ----------
 
