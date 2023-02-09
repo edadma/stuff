@@ -1,3 +1,8 @@
+New Ubuntu setup instructions
+-----------------------------
+
+First create another administrator user to do home folder encryption.
+
 encrypted home folder
 ---------------------
 
@@ -57,7 +62,9 @@ export GITHUB_TOKEN="..."
 ssh keys
 --------
 
-create using `ssh-keygen` or look in 1Password
+- create using `ssh-keygen` or look in 1Password
+- `chmod 700 ~/.ssh`
+- `chmod 600 ~/.ssh/*`
 
 install node using nvm
 ----------------------
