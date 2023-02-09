@@ -148,6 +148,7 @@ prettier (TypeScript formatting)
    npm install --global prettier
    ```
 2. in WebStorm, go to Settings/Preferences -> Languages & Frameworks -> JavaScript -> Prettier
+3. prettier should be installed at `~/.nvm/versions/node/v16.19.0/bin/prettier`
 
 viber
 -----
