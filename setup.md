@@ -10,7 +10,9 @@ encrypted home folder
    sudo apt install ecryptfs-utils cryptsetup
    ```
 2. You'll need to login to an admin account (user2) that's different from the user whose home directory you want to encrypt (user1).
-3. `sudo ecryptfs-migrate-home -u $USER`
+3. ```
+   sudo ecryptfs-migrate-home -u $USER
+   ```
 
 ubuntu packages
 ---------------
@@ -22,16 +24,20 @@ sudo apt install dolphin ark konsole tilix git default-jdk htop curl docker dock
 docker group
 ------------
 
-1. `sudo usermod -aG docker $USER`
+1. ```
+   sudo usermod -aG docker $USER
+   ```
 2. restart computer
 
 git config
 ----------
 
-```
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-```
+- ```
+  git config --global user.email "you@example.com"
+  ```
+- ```
+  git config --global user.name "Your Name"
+  ```
 
 slack
 -----
