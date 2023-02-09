@@ -6,7 +6,9 @@ First create another administrator user to do home folder encryption.
 encrypted home folder
 ---------------------
 
-1. `sudo apt install ecryptfs-utils cryptsetup`
+1. ```
+sudo apt install ecryptfs-utils cryptsetup
+```
 2. You'll need to login to an admin account (user2) that's different from the user whose home directory you want to encrypt (user1).
 3. `sudo ecryptfs-migrate-home -u $USER`
 
