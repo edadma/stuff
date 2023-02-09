@@ -52,17 +52,18 @@ download chrome from https://dl.google.com/linux/direct/google-chrome-stable_cur
 install sbt (for Scala JS or Scala Native development)
 ------------------------------------------------------
 
-1. go to https://www.scala-sbt.org/download.html and follow Linux (deb) instructions
-2. ```
+go to https://www.scala-sbt.org/download.html and follow Linux (deb) instructions:
+
+1. ```
    echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
    ```
-3. ```
+2. ```
    echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
    ```
-4. ```
+3. ```
    curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
    ```
-5. ```
+4. ```
    sudo apt-get update && sudo apt-get install sbt
    ```
 
