@@ -27,7 +27,27 @@ docker group
 1. ```
    sudo usermod -aG docker $USER
    ```
-2. restart computer
+2. restart is needed but perform next install (nvm) first
+
+install node using nvm
+----------------------
+
+1. go to https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+2. choose option 3
+3. execute second curl command:
+   ```
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+   ```
+4. move lines that were appended to `.bashrc` to `.profile`
+5. run
+   ```
+   source ~/.profile
+   ```
+6. run
+   ```
+   nvm install lts/gallium
+   ```
+7. restart machine (needed for both nvm and docker group)
 
 git config
 ----------
@@ -98,23 +118,6 @@ ssh keys
 3. ```
    chmod 600 ~/.ssh/*
    ```
-
-install node using nvm
-----------------------
-
-1. go to https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
-2. choose option 3
-3. execute second curl command
-4. move lines that were appended to `.bashrc` to `.profile`
-5. run
-   ```
-   source ~/.bashrc
-   ```
-6. run
-   ```
-   nvm install lts/gallium
-   ```
-7. restart machine
 
 jetbrains tools
 ---------------
