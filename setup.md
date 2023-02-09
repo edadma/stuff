@@ -53,11 +53,9 @@ install sbt (for Scala JS or Scala Native development)
 ------------------------------------------------------
 
 1. go to https://www.scala-sbt.org/download.html and follow Linux (deb) instructions
-
 2. ```
    echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
    ```
-
 3. ```
    echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
    ```
