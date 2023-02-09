@@ -47,7 +47,18 @@ install node using nvm
    ```
    nvm install lts/gallium
    ```
-7. restart machine (needed for both nvm and docker group)
+7. check installation of `node`, `npm`, and `nvm` by typing
+   ```
+   node -v && npm -v && nvm -v
+   ```
+   
+   you should see something close to
+   ```
+   v16.19.0
+   8.19.3
+   0.39.3
+   ```
+8. restart machine (needed for both nvm and docker group)
 
 git config
 ----------
