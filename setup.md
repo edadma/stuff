@@ -70,11 +70,15 @@ install sbt (for Scala JS or Scala Native development)
 install spotify
 ---------------
 
-```
-curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add - 
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update && sudo apt-get install spotify-client
-```
+1. ```
+   curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -
+   ```
+2. ```
+   echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+   ```
+3. ```
+   sudo apt-get update && sudo apt-get install spotify-client
+   ```
 
 github token
 ------------
@@ -87,9 +91,13 @@ export GITHUB_TOKEN="..."
 ssh keys
 --------
 
-- create using `ssh-keygen` or look in 1Password
-- `chmod 700 ~/.ssh`
-- `chmod 600 ~/.ssh/*`
+1. create using `ssh-keygen` or look in 1Password
+2. ```
+   chmod 700 ~/.ssh
+   ```
+3. ```
+   chmod 600 ~/.ssh/*
+   ```
 
 install node using nvm
 ----------------------
@@ -97,8 +105,11 @@ install node using nvm
 1. go to https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
 2. choose option 3
 3. execute second curl command
-4. move lines appended to `.bashrc` to `.profile`
-5. run `source ~/.bashrc`
+4. move lines that were appended to `.bashrc` to `.profile`
+5. run
+   ```
+   source ~/.bashrc
+   ```
 6. run `nvm install lts/gallium`
 7. restart machine
 
