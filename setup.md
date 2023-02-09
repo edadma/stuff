@@ -1,5 +1,5 @@
 New Ubuntu setup instructions
------------------------------
+=============================
 
 First create another administrator user to do home folder encryption.
 
@@ -28,6 +28,16 @@ git config
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+
+slack
+-----
+
+download slack from https://slack.com/downloads/instructions/ubuntu
+
+chrome
+------
+
+download chrome from https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 install sbt (for Scala JS or Scala Native development)
 ------------------------------------------------------
