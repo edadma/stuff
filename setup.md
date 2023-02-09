@@ -57,12 +57,15 @@ install sbt (for Scala JS or Scala Native development)
 2. ```
    echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
    ```
+
 3. ```
    echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
    ```
+
 4. ```
    curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
    ```
+
 5. ```
    sudo apt-get update && sudo apt-get install sbt
    ```
@@ -110,22 +113,29 @@ install node using nvm
    ```
    source ~/.bashrc
    ```
-6. run `nvm install lts/gallium`
+6. run
+   ```
+   nvm install lts/gallium
+   ```
 7. restart machine
 
 jetbrains tools
 ---------------
 
-1. type `sudo chown $USER:$USER /opt`
-2. set tools installation to `/opt/JetBrains` before downloading
-3. download https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.27.2.13801.tar.gz to `/opt/JetBrains/Toolbox`
-4. extract and run toolbox
+1. ```
+   sudo chown $USER:$USER /opt
+   ```
+2. download https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.27.2.13801.tar.gz to `/opt/JetBrains/Toolbox`
+3. extract and run toolbox
+4. set tools installation to `/opt/JetBrains`
 5. install Intellij, WebStorm, CLion, Android Studio
 
 prettier (TypeScript formatting)
 --------------------------------
 
-1. npm install --global prettier
+1. ```
+   npm install --global prettier
+   ```
 2. in WebStorm, go to Settings/Preferences -> Languages & Frameworks -> JavaScript -> Prettier
 
 viber
