@@ -136,9 +136,9 @@ jetbrains tools
 1. ```
    sudo chown $USER:$USER /opt
    ```
-2. download https://download-cdn.jetbrains.com/toolbox/jetbrains-toolbox-1.27.2.13801.tar.gz to `/opt/JetBrains/Toolbox`
-3. extract and run toolbox
-4. set tools installation to `/opt/JetBrains`
+2. download from https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=linux
+3. extract into `/opt/JetBrains/Toolbox` and run toolbox
+4. set tools installation to `/opt/JetBrains` before starting any downloads
 5. install Intellij, WebStorm, CLion, Android Studio
 
 prettier (TypeScript formatting)
