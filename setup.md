@@ -18,7 +18,7 @@ ubuntu packages
 ---------------
 
 ```
-sudo apt install dolphin ark konsole tilix git default-jdk htop curl docker docker-compose hardinfo synaptic ansible sshpass net-tools openssh-server ccrypt nginx redis-server clang libgc-dev
+sudo apt install dolphin ark konsole tilix git default-jdk htop curl docker docker-compose hardinfo synaptic ansible sshpass net-tools openssh-server ccrypt nginx redis-server clang libgc-dev ffmpeg
 ```
 
 docker group
